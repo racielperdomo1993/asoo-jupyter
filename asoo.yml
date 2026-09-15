@@ -7,4 +7,4 @@ script:
   jupyterlab:
     sudo: true
     commands:
-      - 'pip3 install jupyterlab'
+      - "pip3 install 'jupyterlab==4.4.10' 'jupyter-server==2.16.0' 'tornado==6.5.8'"
